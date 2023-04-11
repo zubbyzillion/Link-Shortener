@@ -4,29 +4,40 @@
   box-sizing: border-box; }
 
 .body {
-  font-family: "Raleway", sans-serif; }
+  font-family: "Raleway", sans-serif;
+  width: cover; }
 
 .header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 100%;
   height: 50px;
   line-height: 50px;
   text-align: center;
-  background: #eeeeee;
-  color: #161616;
+  background: #161616;
+  color: #eeeeee;
   font-weight: 600; }
+  .header span img {
+    width: 20px;
+    margin-top: 20px;
+    margin-left: 5px; }
 
 .form {
   padding: 50px 20px;
-  background: #569bfc; }
-  .form > div {
+  background: #569bfc;
+  width: 100%; }
+  .form > section {
     width: 400px;
     margin: 10px auto; }
-  .form .form-element input, .form .form-element input button {
+  .form .form-element input,
+  .form .form-element button {
     width: 100%;
     padding: 10px;
-    margin-top: 10px; }
-  .form .form-element {
-    background: .form .form-element #161616;
+    margin-top: 10px;
+    outline: none; }
+  .form .form-element button {
+    background: #161616;
     color: #eeeeee;
     outline: none;
     border: none;
@@ -35,3 +46,31 @@
     text-align: center;
     border-top: 1px solid #eeeeee;
     margin-top: 5px; }
+
+.links_table {
+  width: 800px;
+  margin: 40px auto 0 auto; }
+  .links_table h2 {
+    font-size: 40px;
+    margin-bottom: 20px; }
+  .links_table table {
+    width: 100%;
+    text-align: center; }
+  .links_table table thead tr {
+    background: #6d6d6d;
+    color: #eeeeee; }
+  .links_table table thead tr th,
+  .links_table table tbody td {
+    padding: 5px; }
+  .links_table table tbody tr:nth-child(odd) {
+    background: #eeeeee; }
+
+footer {
+  width: 50%;
+  line-height: 24px;
+  font-size: 16px;
+  padding-top: 60px;
+  margin: 0 auto; }
+  footer p {
+    color: #6d6d6d;
+    text-align: center; }
