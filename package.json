@@ -1,0 +1,26 @@
+{
+  "name": "url-shortener",
+  "version": "1.0.0",
+  "description": "Algorithms to shorten URLs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zubbyzillion/Link-Shortener.git"
+  },
+  "author": "Beluonwu-Ogbo Nzubechukwu .P",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zubbyzillion/Link-Shortener/issues"
+  },
+  "homepage": "https://github.com/zubbyzillion/Link-Shortener#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mysql": "^2.18.1"
+  },
+  "devDependencies": {
+    "node-sass": "^8.0.0"
+  }
+}
