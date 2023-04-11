@@ -1,0 +1,13 @@
+$color-blue : #569bfc;
+$color-dark: #161616;
+$color-grey-light: #6d6d6d;
+
+$color-text-grey: #333333;
+$color-text-white: #fffbfb;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: $color-text-grey;
+}
